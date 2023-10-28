@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+
 const myvar = {
     background:'yellowgreen',
     padding:'10px 30px',
@@ -9,7 +10,7 @@ const Layout = () => {
     <>
       <nav>
         <ul>
-          <li style={myvar}>
+          <li className="active">
             <Link to="/">Home</Link>
           </li>
           <li>

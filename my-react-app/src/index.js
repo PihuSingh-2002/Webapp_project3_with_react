@@ -8,7 +8,7 @@ import Info, { Pihu } from './pages/Info';
 import NoPage from './pages/NoPage';
 import Layout from './pages/Layout';
 import AboutUs from './pages/AboutUs';
-
+import './pages/assets/css/style.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
