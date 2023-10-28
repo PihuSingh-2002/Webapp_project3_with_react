@@ -3,7 +3,23 @@ import React, { Component } from 'react'
 export class Pihu extends Component {
   render() {
     return (
-      <h1>Info Pihu</h1>
+      <>
+       <h1>Info Pihu</h1>
+       <div className="container">
+        <div className="row">
+          <div className="col-lg-4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum cupiditate rerum et fuga molestiae quam dolor sit corporis necessitatibus, tempore sint quisquam nemo. Corrupti expedita architecto ea ipsam consequuntur possimus?</p>
+          </div>
+          <div className="col-lg-4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum cupiditate rerum et fuga molestiae quam dolor sit corporis necessitatibus, tempore sint quisquam nemo. Corrupti expedita architecto ea ipsam consequuntur possimus?</p>
+          </div>
+          <div className="col-lg-4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum cupiditate rerum et fuga molestiae quam dolor sit corporis necessitatibus, tempore sint quisquam nemo. Corrupti expedita architecto ea ipsam consequuntur possimus?</p>
+          </div>
+        </div>
+       </div>
+      </>
+     
     )
   }
 }
